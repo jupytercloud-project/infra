@@ -2,6 +2,7 @@ dependencies:
   gnu.org/coreutils: '*'
   terraform.io: '*'
   taskfile.dev: '*'
+  gnu.org/bash: '^5'
 env:
   OS_CLOUD: openstack
   TF_OS_CLOUD: $OS_CLOUD
