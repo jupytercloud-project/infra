@@ -1,0 +1,8 @@
+dependencies:
+  gnu.org/coreutils: '*'
+  terraform.io: '*'
+env:
+  OS_CLOUD: openstack
+  TF_OS_CLOUD: $OS_CLOUD
+  TF_VAR_PUBLIC_NETWORK: public-2
+  TF_VAR_PRIVATE_SUBNET_CIDR: 192.168.199.0/24
